@@ -500,3 +500,38 @@
   .hero-section { background: #333 !important; }
   .home-card, .impact-card, .contact-card { opacity: 1 !important; transform: none !important; }
 }
+
+/* --- Sticky Table of Contents Sidebar --- */
+@media (min-width: 960px) {
+  .md-sidebar--secondary {
+    position: sticky;
+    top: 4rem;
+    max-height: calc(100vh - 5rem);
+    overflow-y: auto;
+  }
+  .md-sidebar--secondary .md-sidebar__scrollwrap {
+    position: sticky;
+    top: 0;
+  }
+  .md-nav--secondary .md-nav__title {
+    font-weight: 700;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--md-default-fg-color--light);
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--md-default-fg-color--lightest);
+    margin-bottom: 0.5rem;
+  }
+  .md-nav--secondary .md-nav__link {
+    font-size: 0.82rem;
+    transition: color 0.2s ease, border-left-color 0.2s ease;
+    border-left: 2px solid transparent;
+    padding-left: 0.75rem;
+  }
+  .md-nav--secondary .md-nav__link--active,
+  .md-nav--secondary .md-nav__link:hover {
+    color: var(--color-accent);
+    border-left-color: var(--color-accent);
+  }
+}

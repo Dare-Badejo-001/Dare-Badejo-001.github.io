@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  <!-- Open Graph -->
+  <meta property="og:title" content="{{ page.title }} | {{ config.site_name }}">
+  <meta property="og:description" content="{% if page and page.meta and page.meta.description %}{{ page.meta.description }}{% else %}{{ config.site_description }}{% endif %}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ page.canonical_url }}">
+  <meta property="og:site_name" content="{{ config.site_name }}">
+
+  <!-- JSON-LD Schema.org Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Dare Badejo",
+    "alternateName": "Oluwadare Badejo",
+    "url": "https://Dare-Badejo-001.github.io/",
+    "jobTitle": "Applied Scientist",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Dow",
+      "url": "https://www.dow.com/"
+    },
+    "alumniOf": [
+      {
+        "@type": "CollegeOrUniversity",
+        "name": "University of Delaware"
+      },
+      {
+        "@type": "CollegeOrUniversity",
+        "name": "University of Lagos"
+      }
+    ],
+    "knowsAbout": [
+      "Artificial Intelligence",
+      "Decision Systems",
+      "Stochastic Optimization",
+      "Mixed-Integer Programming",
+      "Life Cycle Assessment (LCA)",
+      "Techno-Economic Analysis (TEA)",
+      "Agent-Based Modeling",
+      "Supply Chain Resilience",
+      "Sustainability Analysis",
+      "Machine Learning",
+      "Python",
+      "GAMS",
+      "Pyomo",
+      "SQL"
+    ],
+    "sameAs": [
+      "https://www.linkedin.com/in/oluwadare-badejo",
+      "https://github.com/Dare-Badejo-001",
+      "https://scholar.google.com/"
+    ],
+    "description": "Applied Scientist specializing in AI-driven decision systems and sustainability optimization at Dow. PhD in Chemical Engineering from the University of Delaware.",
+    "hasCredential": {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "PhD",
+      "about": "Chemical Engineering",
+      "recognizedBy": {
+        "@type": "CollegeOrUniversity",
+        "name": "University of Delaware"
+      }
+    }
+  }
+  </script>
+{% endblock %}
+
+{% block content %}
+  {{ super() }}
+{% endblock %}

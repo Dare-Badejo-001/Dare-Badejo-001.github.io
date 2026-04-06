@@ -1,11 +1,12 @@
 ---
+description: "Contact Dare Badejo — reach out for collaboration on AI-driven decision systems, optimization, sustainability consulting (LCA/TEA), or research partnerships."
 hide:
   - toc
 ---
 
-# Contact
+# Contact Dare Badejo
 
-![Contact Banner](assets/images/contact-banner.png){ .page-banner }
+![Banner image for the contact page with professional networking icons](assets/images/contact-banner.png){ .page-banner }
 
 ## Let's Connect
 
@@ -21,7 +22,7 @@ Whether you are exploring a collaboration, seeking consulting expertise in optim
 
 Connect with me professionally.
 
-[Visit LinkedIn](https://www.linkedin.com/in/oluwadare-badejo){ .md-button .md-button--primary target="_blank" }
+[Visit LinkedIn](https://www.linkedin.com/in/oluwadare-badejo){ .md-button .md-button--primary target="_blank" rel="me" }
 
 </div>
 
@@ -31,7 +32,7 @@ Connect with me professionally.
 
 Explore my projects and code.
 
-[Visit GitHub](https://github.com/Dare-Badejo-001){ .md-button .md-button--primary target="_blank" }
+[Visit GitHub](https://github.com/Dare-Badejo-001){ .md-button .md-button--primary target="_blank" rel="me" }
 
 </div>
 

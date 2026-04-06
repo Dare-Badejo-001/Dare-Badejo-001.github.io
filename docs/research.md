@@ -1,3 +1,7 @@
+---
+description: "Research by Dare Badejo — stochastic optimization under uncertainty, integrated systems modeling, agent-based simulation, sustainability analysis via LCA/TEA. Publications and BibTeX citations."
+---
+
 # Research
 
 ## Overview
@@ -12,7 +16,7 @@ Core areas of focus include **enterprise-wide optimization under uncertainty**, 
 
 ### 1. Optimization Under Uncertainty
 
-![Optimization](assets/images/research-optimization.png){ .project-img }
+![Visualization of stochastic optimization framework capturing disruption spectra in supply chain networks](assets/images/research-optimization.png){ .project-img }
 
 Developing mathematical frameworks that account for the inherent unpredictability of real-world systems.
 
@@ -27,7 +31,7 @@ Developing mathematical frameworks that account for the inherent unpredictabilit
 
 ### 2. Integrated Systems Modeling
 
-![Systems Modeling](assets/images/research-systems.png){ .project-img }
+![Diagram of multi-agent systems architecture for advisor-student matching and complex allocation problems](assets/images/research-systems.png){ .project-img }
 
 Building models that bridge traditionally siloed decision layers, from real-time control to long-term strategic planning.
 
@@ -42,7 +46,7 @@ Building models that bridge traditionally siloed decision layers, from real-time
 
 ### 3. Sustainability & Decision Support
 
-![Sustainability](assets/images/research-sustainability.png){ .project-img }
+![Chart showing LCA/TEA decision boundaries mapping cost-sustainability trade-off frontiers](assets/images/research-sustainability.png){ .project-img }
 
 Quantifying environmental and economic trade-offs to support strategic decision-making in industrial contexts.
 
@@ -63,7 +67,44 @@ Quantifying environmental and economic trade-offs to support strategic decision-
 | _Agent-Based Advisor-Student Matching_ | In progress | Coming soon |
 | _Sustainability Analysis via LCA/TEA_ | In progress | Coming soon |
 
-:material-school: [View Full Profile on Google Scholar](https://scholar.google.com/){ target="_blank" }
+:material-school: [View Full Profile on Google Scholar](https://scholar.google.com/){ target="_blank" rel="me" }
+
+---
+
+### Cite This Work
+
+??? note "BibTeX — Partial Disruption Modeling for Pharmaceutical Supply Chains"
+    ```bibtex
+    @article{badejo2025partialdisruption,
+      title   = {Partial Disruption Modeling for Pharmaceutical Supply Chains},
+      author  = {Badejo, Oluwadare},
+      year    = {2025},
+      note    = {In progress},
+      url     = {https://Dare-Badejo-001.github.io/research/}
+    }
+    ```
+
+??? note "BibTeX — Agent-Based Advisor-Student Matching"
+    ```bibtex
+    @article{badejo2025agentmatching,
+      title   = {Agent-Based Advisor-Student Matching Optimization},
+      author  = {Badejo, Oluwadare},
+      year    = {2025},
+      note    = {In progress},
+      url     = {https://Dare-Badejo-001.github.io/research/}
+    }
+    ```
+
+??? note "BibTeX — Sustainability Analysis via LCA/TEA"
+    ```bibtex
+    @article{badejo2025lcatea,
+      title   = {Sustainability Analysis via Integrated LCA/TEA Models},
+      author  = {Badejo, Oluwadare},
+      year    = {2025},
+      note    = {In progress},
+      url     = {https://Dare-Badejo-001.github.io/research/}
+    }
+    ```
 
 ---
 

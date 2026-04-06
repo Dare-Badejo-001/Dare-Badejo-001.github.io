@@ -1,6 +1,6 @@
 site_name: "Dare Badejo"
 site_url: "https://Dare-Badejo-001.github.io/"
-site_description: "Applied Scientist | AI & Decision Systems | Optimization & Sustainability"
+site_description: "Dare Badejo — Applied Scientist specializing in AI-driven decision systems, stochastic optimization, and sustainability analysis (LCA/TEA) at Dow. PhD in Chemical Engineering, University of Delaware."
 site_author: "Dare Badejo"
 
 theme:
@@ -33,7 +33,7 @@ theme:
     - navigation.footer
     - navigation.instant
     - navigation.instant.progress
-    - toc.integrate
+    - toc.follow
     - content.tabs.link
     - search.suggest
     - search.highlight
@@ -80,14 +80,17 @@ markdown_extensions:
 plugins:
   - search
 
-copyright: "&copy; 2025 Dare Badejo. All rights reserved."
+copyright: "&copy; 2025–2026 Dare Badejo. All rights reserved."
 
 extra:
   social:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/oluwadare-badejo
+      name: Dare Badejo on LinkedIn
     - icon: fontawesome/brands/github
       link: https://github.com/Dare-Badejo-001
+      name: Dare Badejo on GitHub
     - icon: fontawesome/brands/google-scholar
       link: https://scholar.google.com/
+      name: Dare Badejo on Google Scholar
   generator: false

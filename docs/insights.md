@@ -1,10 +1,14 @@
+---
+description: "Insights by Dare Badejo — perspectives on partial disruption modeling, cost vs. sustainability trade-offs, translating optimization models to real-world impact, and AI-driven industrial decision-making."
+---
+
 # Insights
 
 Perspectives on optimization, sustainability, and AI-driven decision-making, drawn from research and industry experience.
 
 ---
 
-![Disruption Models](assets/images/insight-disruption.png){ .insight-img }
+![Conceptual diagram showing partial vs. total disruption modeling in supply chain risk management](assets/images/insight-disruption.png){ .insight-img }
 
 ## Why Total Disruption Models Are Flawed
 
@@ -18,7 +22,7 @@ By modeling disruptions as a continuous spectrum, from minor degradation to tota
 
 ---
 
-![Sustainability Trade-offs](assets/images/insight-sustainability.png){ .insight-img }
+![Chart showing cost-sustainability Pareto frontier from integrated LCA and TEA analysis](assets/images/insight-sustainability.png){ .insight-img }
 
 ## Cost vs. Sustainability Trade-offs in Industrial Systems
 
@@ -32,7 +36,7 @@ Below this boundary, sustainability and profitability are aligned. Above it, str
 
 ---
 
-![Optimization Translation](assets/images/insight-optimization.png){ .insight-img }
+![Diagram illustrating the gap between academic optimization research and deployed industrial solutions](assets/images/insight-optimization.png){ .insight-img }
 
 ## Translating Optimization Models into Real-World Impact
 
@@ -46,7 +50,7 @@ At Dow, I learned that the most impactful models are those built collaboratively
 
 ---
 
-![AI Decision Making](assets/images/insight-ai.png){ .insight-img }
+![Infographic depicting interpretable AI decision-support tools augmenting human judgment in industrial operations](assets/images/insight-ai.png){ .insight-img }
 
 ## AI-Driven Decision Making in Industrial Systems
 
