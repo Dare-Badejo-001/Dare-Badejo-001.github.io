@@ -28,7 +28,7 @@ With a PhD in Chemical Engineering from the University of Delaware and hands-on 
 
 <div class="hero-image" markdown>
 
-![Portrait photo of Dare Badejo, Applied Scientist and AI Researcher](assets/images/profile-photo.png){ .profile-img }
+![Portrait photo of Dare Badejo, Applied Scientist and AI Researcher](assets/images/favicon1.jpeg){ .profile-img }
 
 </div>
 
