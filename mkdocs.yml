@@ -22,6 +22,7 @@ theme:
   font:
     text: "Inter"
     code: "Fira Code"
+  favicon: assets/images/favicon1.jpeg
   icon:
     logo: material/atom
   features:
