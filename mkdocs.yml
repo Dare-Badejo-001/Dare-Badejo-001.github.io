@@ -1,13 +1,43 @@
-site_name: "Dare Badejo Portfolio"
+site_name: "Dare Badejo"
 site_url: "https://Dare-Badejo-001.github.io/"
+site_description: "Applied Scientist | AI & Decision Systems | Optimization & Sustainability"
+site_author: "Dare Badejo"
+
 theme:
   name: "material"
+  custom_dir: docs/overrides
   palette:
-    primary: "blue"
-    accent: "deep orange"
+    - scheme: default
+      primary: "indigo"
+      accent: "deep orange"
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: "indigo"
+      accent: "deep orange"
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
   font:
     text: "Inter"
     code: "Fira Code"
+  icon:
+    logo: material/atom
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - navigation.instant
+    - navigation.instant.progress
+    - toc.integrate
+    - content.tabs.link
+    - search.suggest
+    - search.highlight
+    - search.share
+
 nav:
   - Home: index.md
   - About: about.md
@@ -16,7 +46,47 @@ nav:
   - Insights: insights.md
   - Impact: impact.md
   - Contact: contact.md
+
 extra_css:
   - assets/css/custom.css
+
 extra_javascript:
   - assets/js/custom.js
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - tables
+  - def_list
+  - footnotes
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+
+copyright: "&copy; 2025 Dare Badejo. All rights reserved."
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/oluwadare-badejo
+    - icon: fontawesome/brands/github
+      link: https://github.com/Dare-Badejo-001
+    - icon: fontawesome/brands/google-scholar
+      link: https://scholar.google.com/
+  generator: false

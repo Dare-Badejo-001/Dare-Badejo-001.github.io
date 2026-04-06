@@ -1,0 +1,31 @@
+/* Theme: royal-purple — Rich purple + pink accents */
+:root {
+  --color-hero-start: #1a0033;
+  --color-hero-mid: #4a148c;
+  --color-hero-end: #12002b;
+  --color-accent: #e040fb;
+  --color-accent-light: #ea80fc;
+  --color-accent-glow: #e040fb33;
+}
+.hero-section {
+  background: linear-gradient(160deg, #1a0033, #4a148c 50%, #12002b) !important;
+}
+.hero-section .md-button--primary,
+.md-typeset .md-button--primary {
+  background: linear-gradient(135deg, #e040fb, #ea80fc) !important;
+  box-shadow: 0 4px 20px #e040fb33 !important;
+}
+.home-card::after,
+.impact-card::after {
+  background: linear-gradient(90deg, #e040fb, #ea80fc) !important;
+}
+.md-typeset .admonition.info,
+.md-typeset details.info {
+  border-left-color: #e040fb !important;
+}
+.md-typeset .admonition.quote {
+  border-left-color: #e040fb !important;
+}
+.md-typeset hr {
+  background: linear-gradient(90deg, transparent 5%, #e040fb22 50%, transparent 95%) !important;
+}

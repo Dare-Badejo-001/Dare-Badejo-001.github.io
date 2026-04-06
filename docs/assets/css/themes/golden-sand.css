@@ -1,0 +1,31 @@
+/* Theme: golden-sand — Warm earth tones + gold accents */
+:root {
+  --color-hero-start: #1a1510;
+  --color-hero-mid: #3e2723;
+  --color-hero-end: #2c1e14;
+  --color-accent: #ffc107;
+  --color-accent-light: #ffd54f;
+  --color-accent-glow: #ffc10733;
+}
+.hero-section {
+  background: linear-gradient(160deg, #1a1510, #3e2723 50%, #2c1e14) !important;
+}
+.hero-section .md-button--primary,
+.md-typeset .md-button--primary {
+  background: linear-gradient(135deg, #ffc107, #ffd54f) !important;
+  box-shadow: 0 4px 20px #ffc10733 !important;
+}
+.home-card::after,
+.impact-card::after {
+  background: linear-gradient(90deg, #ffc107, #ffd54f) !important;
+}
+.md-typeset .admonition.info,
+.md-typeset details.info {
+  border-left-color: #ffc107 !important;
+}
+.md-typeset .admonition.quote {
+  border-left-color: #ffc107 !important;
+}
+.md-typeset hr {
+  background: linear-gradient(90deg, transparent 5%, #ffc10722 50%, transparent 95%) !important;
+}

@@ -1,0 +1,31 @@
+/* Theme: midnight-indigo — Deep indigo + orange accents (default) */
+:root {
+  --color-hero-start: #0f0c29;
+  --color-hero-mid: #302b63;
+  --color-hero-end: #24243e;
+  --color-accent: #ff6d00;
+  --color-accent-light: #ff9100;
+  --color-accent-glow: #ff6d0033;
+}
+.hero-section {
+  background: linear-gradient(160deg, #0f0c29, #302b63 50%, #24243e) !important;
+}
+.hero-section .md-button--primary,
+.md-typeset .md-button--primary {
+  background: linear-gradient(135deg, #ff6d00, #ff9100) !important;
+  box-shadow: 0 4px 20px #ff6d0033 !important;
+}
+.home-card::after,
+.impact-card::after {
+  background: linear-gradient(90deg, #ff6d00, #ff9100) !important;
+}
+.md-typeset .admonition.info,
+.md-typeset details.info {
+  border-left-color: #ff6d00 !important;
+}
+.md-typeset .admonition.quote {
+  border-left-color: #ff6d00 !important;
+}
+.md-typeset hr {
+  background: linear-gradient(90deg, transparent 5%, #ff6d0022 50%, transparent 95%) !important;
+}

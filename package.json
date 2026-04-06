@@ -1,0 +1,29 @@
+{
+  "name": "dare-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "generate-images": "node scripts/generate-images.js",
+    "generate-themes": "node scripts/generate-themes.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dare-Badejo-001/Dare-Badejo-001.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Dare-Badejo-001/Dare-Badejo-001.github.io/issues"
+  },
+  "homepage": "https://github.com/Dare-Badejo-001/Dare-Badejo-001.github.io#readme",
+  "devDependencies": {
+    "canvas": "^3.2.3"
+  }
+}

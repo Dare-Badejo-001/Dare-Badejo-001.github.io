@@ -1,0 +1,31 @@
+/* Theme: forest-green — Deep forest greens + lime accents */
+:root {
+  --color-hero-start: #0b1a0f;
+  --color-hero-mid: #1b5e20;
+  --color-hero-end: #0d2818;
+  --color-accent: #76ff03;
+  --color-accent-light: #b2ff59;
+  --color-accent-glow: #76ff0333;
+}
+.hero-section {
+  background: linear-gradient(160deg, #0b1a0f, #1b5e20 50%, #0d2818) !important;
+}
+.hero-section .md-button--primary,
+.md-typeset .md-button--primary {
+  background: linear-gradient(135deg, #76ff03, #b2ff59) !important;
+  box-shadow: 0 4px 20px #76ff0333 !important;
+}
+.home-card::after,
+.impact-card::after {
+  background: linear-gradient(90deg, #76ff03, #b2ff59) !important;
+}
+.md-typeset .admonition.info,
+.md-typeset details.info {
+  border-left-color: #76ff03 !important;
+}
+.md-typeset .admonition.quote {
+  border-left-color: #76ff03 !important;
+}
+.md-typeset hr {
+  background: linear-gradient(90deg, transparent 5%, #76ff0322 50%, transparent 95%) !important;
+}
