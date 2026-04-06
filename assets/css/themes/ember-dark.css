@@ -1,0 +1,31 @@
+/* Theme: ember-dark — Dark charcoal + ember red accents */
+:root {
+  --color-hero-start: #0a0a0a;
+  --color-hero-mid: #1a1a2e;
+  --color-hero-end: #16213e;
+  --color-accent: #ff1744;
+  --color-accent-light: #ff5252;
+  --color-accent-glow: #ff174433;
+}
+.hero-section {
+  background: linear-gradient(160deg, #0a0a0a, #1a1a2e 50%, #16213e) !important;
+}
+.hero-section .md-button--primary,
+.md-typeset .md-button--primary {
+  background: linear-gradient(135deg, #ff1744, #ff5252) !important;
+  box-shadow: 0 4px 20px #ff174433 !important;
+}
+.home-card::after,
+.impact-card::after {
+  background: linear-gradient(90deg, #ff1744, #ff5252) !important;
+}
+.md-typeset .admonition.info,
+.md-typeset details.info {
+  border-left-color: #ff1744 !important;
+}
+.md-typeset .admonition.quote {
+  border-left-color: #ff1744 !important;
+}
+.md-typeset hr {
+  background: linear-gradient(90deg, transparent 5%, #ff174422 50%, transparent 95%) !important;
+}

@@ -1,0 +1,31 @@
+/* Theme: ocean-teal — Teal + cyan ocean vibes */
+:root {
+  --color-hero-start: #0a2e36;
+  --color-hero-mid: #134e5e;
+  --color-hero-end: #0c3547;
+  --color-accent: #00bcd4;
+  --color-accent-light: #26c6da;
+  --color-accent-glow: #00bcd433;
+}
+.hero-section {
+  background: linear-gradient(160deg, #0a2e36, #134e5e 50%, #0c3547) !important;
+}
+.hero-section .md-button--primary,
+.md-typeset .md-button--primary {
+  background: linear-gradient(135deg, #00bcd4, #26c6da) !important;
+  box-shadow: 0 4px 20px #00bcd433 !important;
+}
+.home-card::after,
+.impact-card::after {
+  background: linear-gradient(90deg, #00bcd4, #26c6da) !important;
+}
+.md-typeset .admonition.info,
+.md-typeset details.info {
+  border-left-color: #00bcd4 !important;
+}
+.md-typeset .admonition.quote {
+  border-left-color: #00bcd4 !important;
+}
+.md-typeset hr {
+  background: linear-gradient(90deg, transparent 5%, #00bcd422 50%, transparent 95%) !important;
+}

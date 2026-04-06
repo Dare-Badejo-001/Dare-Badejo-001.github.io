@@ -1,0 +1,31 @@
+/* Theme: arctic-blue — Cool ice blue + white accents */
+:root {
+  --color-hero-start: #0a1628;
+  --color-hero-mid: #0d47a1;
+  --color-hero-end: #071330;
+  --color-accent: #42a5f5;
+  --color-accent-light: #90caf9;
+  --color-accent-glow: #42a5f533;
+}
+.hero-section {
+  background: linear-gradient(160deg, #0a1628, #0d47a1 50%, #071330) !important;
+}
+.hero-section .md-button--primary,
+.md-typeset .md-button--primary {
+  background: linear-gradient(135deg, #42a5f5, #90caf9) !important;
+  box-shadow: 0 4px 20px #42a5f533 !important;
+}
+.home-card::after,
+.impact-card::after {
+  background: linear-gradient(90deg, #42a5f5, #90caf9) !important;
+}
+.md-typeset .admonition.info,
+.md-typeset details.info {
+  border-left-color: #42a5f5 !important;
+}
+.md-typeset .admonition.quote {
+  border-left-color: #42a5f5 !important;
+}
+.md-typeset hr {
+  background: linear-gradient(90deg, transparent 5%, #42a5f522 50%, transparent 95%) !important;
+}
